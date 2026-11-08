@@ -1,0 +1,12 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+.DS_Store
+
+# Internal working files (not part of the app source)
+codex-build.log
+task-prompt.txt
+BUILD_RESULT.md

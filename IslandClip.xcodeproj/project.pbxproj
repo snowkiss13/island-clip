@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0126CB4F5DFD74C91D2C84D3 /* IslandClipWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590267A74C6E4EFD49A48662 /* IslandClipWidget.swift */; };
+		0D46915EEAD3952166F07CE8 /* IslandClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D031DC583FD980C68828B6 /* IslandClipApp.swift */; };
+		1E8B72C5087E2B0C3DD83145 /* ClipActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDD54A8CE7D50DD01723AA /* ClipActivityAttributes.swift */; };
+		2F5C3967865902FA88E2E813 /* CaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17C21C0FE183A706EB2827 /* CaptureIntent.swift */; };
+		3DAC2522D53D044F6F3B270B /* ClipActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60348887FEDE508F959645 /* ClipActivityManager.swift */; };
+		599208E4D1EA7BAAC77959D7 /* ClipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2122A15C5B9F38966E87D1 /* ClipItem.swift */; };
+		753BCA5ABFB79EAD868F01B6 /* ClipActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDD54A8CE7D50DD01723AA /* ClipActivityAttributes.swift */; };
+		D4FC2358C2981ED75876B141 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BBD5133BC829EF1BCC57A /* ContentView.swift */; };
+		E211765D5BA48B602CDDA564 /* IslandClipWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D1E66320A1347004B4860BBE /* IslandClipWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FEA5879D070388C79F274686 /* ClipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2122A15C5B9F38966E87D1 /* ClipItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E7CAB6108066F48AC40CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6623CE6AAE0BA992CCABEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510DAD6ABA6EEAB90876B07D;
+			remoteInfo = IslandClipWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6E257D39FD68D41CD0D667F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E211765D5BA48B602CDDA564 /* IslandClipWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4362E6434DFA455E58E11763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4BF7662B03E28490EB37DCEA /* IslandClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D031DC583FD980C68828B6 /* IslandClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandClipApp.swift; sourceTree = "<group>"; };
+		5705A884FFC1FB4982AF247F /* IslandClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IslandClip.entitlements; sourceTree = "<group>"; };
+		590267A74C6E4EFD49A48662 /* IslandClipWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandClipWidget.swift; sourceTree = "<group>"; };
+		7B4BBD5133BC829EF1BCC57A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D1F7679C68291C431A5F24A /* IslandClipWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IslandClipWidget.entitlements; sourceTree = "<group>"; };
+		97CDD54A8CE7D50DD01723AA /* ClipActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipActivityAttributes.swift; sourceTree = "<group>"; };
+		AB2122A15C5B9F38966E87D1 /* ClipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipItem.swift; sourceTree = "<group>"; };
+		AD17C21C0FE183A706EB2827 /* CaptureIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureIntent.swift; sourceTree = "<group>"; };
+		AE60348887FEDE508F959645 /* ClipActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipActivityManager.swift; sourceTree = "<group>"; };
+		BC95D60975682D553F2F607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1E66320A1347004B4860BBE /* IslandClipWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IslandClipWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		56DC4E05A980E8BBDD210AEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD17C21C0FE183A706EB2827 /* CaptureIntent.swift */,
+				AE60348887FEDE508F959645 /* ClipActivityManager.swift */,
+				7B4BBD5133BC829EF1BCC57A /* ContentView.swift */,
+				4362E6434DFA455E58E11763 /* Info.plist */,
+				5705A884FFC1FB4982AF247F /* IslandClip.entitlements */,
+				50D031DC583FD980C68828B6 /* IslandClipApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7300B4D91D2607296A8367C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7662B03E28490EB37DCEA /* IslandClip.app */,
+				D1E66320A1347004B4860BBE /* IslandClipWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74180347E5CC3F133D6394C8 = {
+			isa = PBXGroup;
+			children = (
+				56DC4E05A980E8BBDD210AEF /* App */,
+				FA2A13B309982B6B9D99515B /* Shared */,
+				9CEFD1310257202F3592A5EB /* Widget */,
+				7300B4D91D2607296A8367C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEFD1310257202F3592A5EB /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				BC95D60975682D553F2F607D /* Info.plist */,
+				7D1F7679C68291C431A5F24A /* IslandClipWidget.entitlements */,
+				590267A74C6E4EFD49A48662 /* IslandClipWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		FA2A13B309982B6B9D99515B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				97CDD54A8CE7D50DD01723AA /* ClipActivityAttributes.swift */,
+				AB2122A15C5B9F38966E87D1 /* ClipItem.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510DAD6ABA6EEAB90876B07D /* IslandClipWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801A9051ECE550ACEDFF20CB /* Build configuration list for PBXNativeTarget "IslandClipWidget" */;
+			buildPhases = (
+				51EF43EB49BB2A7FC944144C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslandClipWidget;
+			packageProductDependencies = (
+			);
+			productName = IslandClipWidget;
+			productReference = D1E66320A1347004B4860BBE /* IslandClipWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FB3828149A39DF843F83F4EC /* IslandClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CBC6B41473DA06A9277E2B /* Build configuration list for PBXNativeTarget "IslandClip" */;
+			buildPhases = (
+				4AA00CE84FE5F84F030F6AE1 /* Sources */,
+				C6E257D39FD68D41CD0D667F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA7B9C9C8AC14775FEB6D61 /* PBXTargetDependency */,
+			);
+			name = IslandClip;
+			packageProductDependencies = (
+			);
+			productName = IslandClip;
+			productReference = 4BF7662B03E28490EB37DCEA /* IslandClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6623CE6AAE0BA992CCABEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6AF0C9F58D5B9B92958C2B2B /* Build configuration list for PBXProject "IslandClip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 74180347E5CC3F133D6394C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7300B4D91D2607296A8367C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3828149A39DF843F83F4EC /* IslandClip */,
+				510DAD6ABA6EEAB90876B07D /* IslandClipWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA00CE84FE5F84F030F6AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5C3967865902FA88E2E813 /* CaptureIntent.swift in Sources */,
+				753BCA5ABFB79EAD868F01B6 /* ClipActivityAttributes.swift in Sources */,
+				3DAC2522D53D044F6F3B270B /* ClipActivityManager.swift in Sources */,
+				FEA5879D070388C79F274686 /* ClipItem.swift in Sources */,
+				D4FC2358C2981ED75876B141 /* ContentView.swift in Sources */,
+				0D46915EEAD3952166F07CE8 /* IslandClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EF43EB49BB2A7FC944144C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8B72C5087E2B0C3DD83145 /* ClipActivityAttributes.swift in Sources */,
+				599208E4D1EA7BAAC77959D7 /* ClipItem.swift in Sources */,
+				0126CB4F5DFD74C91D2C84D3 /* IslandClipWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA7B9C9C8AC14775FEB6D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510DAD6ABA6EEAB90876B07D /* IslandClipWidget */;
+			targetProxy = 75E7CAB6108066F48AC40CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		179AE64EA24C1693BAC05C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/IslandClipWidget.entitlements;
+				DEVELOPMENT_TEAM = NB2N6Q4D5X;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowkiss13.islandclip.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EF7F6278E7B5F8C869C066D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/IslandClipWidget.entitlements;
+				DEVELOPMENT_TEAM = NB2N6Q4D5X;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowkiss13.islandclip.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76331595733637C649B7ADCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/IslandClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NB2N6Q4D5X;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowkiss13.islandclip;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A2D7D400F4A5993201058A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DB3A9114D395ACCDB5CB578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E2D8490E056576B8B83372DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/IslandClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NB2N6Q4D5X;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowkiss13.islandclip;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CBC6B41473DA06A9277E2B /* Build configuration list for PBXNativeTarget "IslandClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76331595733637C649B7ADCD /* Debug */,
+				E2D8490E056576B8B83372DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AF0C9F58D5B9B92958C2B2B /* Build configuration list for PBXProject "IslandClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2D7D400F4A5993201058A3 /* Debug */,
+				DB3A9114D395ACCDB5CB578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		801A9051ECE550ACEDFF20CB /* Build configuration list for PBXNativeTarget "IslandClipWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF7F6278E7B5F8C869C066D /* Debug */,
+				179AE64EA24C1693BAC05C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6623CE6AAE0BA992CCABEC6 /* Project object */;
+}
